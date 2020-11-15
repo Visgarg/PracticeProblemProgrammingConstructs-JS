@@ -11,15 +11,15 @@ console.log("please enter 2nd no.");
 let b= await io.read(parseInt())
 console.log("please enter 3rd no.");
 let c=await io.read(parseInt())
-if(a>b & a>c)
+if(a>=b & a>=c)
     console.log("max value- "+a);
-else if(b>c & b>a)
+else if(b>=c & b>=a)
     console.log("max value- "+b);
 else
     console.log("maximum value- "+c);
-if(a<b & a<c)
+if(a<=b & a<=c)
     console.log("min value- "+a);
-else if(b<c & b<a)
+else if(b<=c & b<=a)
     console.log("min value- "+b);
 else
     console.log("min value- "+c);
